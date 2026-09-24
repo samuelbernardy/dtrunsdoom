@@ -34,6 +34,9 @@ export default defineConfig([
     "**/.dt-app",
     "**/app.config.*",
     "**/jest.*config.js",
+    // Binary WASM files stored with .js extension — not parseable as JavaScript
+    "**/public/js-dos/**",
+    "**/ui/assets/js-dos/**",
   ]),
   {
     settings: {
