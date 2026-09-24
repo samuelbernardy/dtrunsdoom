@@ -1,6 +1,6 @@
 {
   "$schema": "./.dt-app/app.config.schema.json",
-  "environmentUrl": "https://dvq23986.apps.dynatrace.com",
+  "environmentUrl": "https://xxx.apps.dynatrace.com",
   "app": {
     "name": "DynaDoom",
     "version": "0.1.0",
